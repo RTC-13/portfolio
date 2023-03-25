@@ -243,6 +243,11 @@ footer ul {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
   }
+
+  #projects {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
